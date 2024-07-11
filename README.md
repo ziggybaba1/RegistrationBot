@@ -13,23 +13,6 @@ This is an application that is designed to automate the registration process on 
 
 
 
-## How to run code
-Note: Ensure you have Docker installed on your local machine.
-
-This are the steps to run this project.
-
-1. Clone repo
-2. Navigate to project folder
-3. Run this command ```  docker compose build  ```
-4. Run this command ```  docker compose up -d   ```
-
-Steps to run Job
-
-1. Run the command terminal on your redis and the app container on the docker desktop.
-2. Run this command on redis container terminal ``` redis-cli monitor ```.
-3. Run this command on app container terminal ``` php artisan queue:work ```
-4. Run this command on app container terminal as well ``` php artisan registration:dispatch ```
-
 
 ## License
 
