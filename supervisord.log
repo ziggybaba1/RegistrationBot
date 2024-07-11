@@ -1,0 +1,179 @@
+2024-07-10 14:12:23,645 INFO supervisord started with pid 1
+2024-07-10 14:12:24,667 INFO spawned: 'horizon' with pid 7
+2024-07-10 14:12:25,705 INFO success: horizon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-10 14:12:29,688 WARN exited: horizon (exit status 1; not expected)
+2024-07-10 14:12:30,696 INFO spawned: 'horizon' with pid 10
+2024-07-10 14:12:31,701 INFO success: horizon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-10 14:12:34,146 WARN exited: horizon (exit status 1; not expected)
+2024-07-10 14:12:35,155 INFO spawned: 'horizon' with pid 13
+2024-07-10 14:12:36,160 INFO success: horizon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-10 14:12:36,413 WARN exited: horizon (exit status 1; not expected)
+2024-07-10 14:12:37,420 INFO spawned: 'horizon' with pid 16
+2024-07-10 14:12:38,423 INFO success: horizon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-10 14:12:39,719 WARN exited: horizon (exit status 1; not expected)
+2024-07-10 14:12:40,729 INFO spawned: 'horizon' with pid 19
+2024-07-10 14:12:41,733 INFO success: horizon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-10 14:12:42,327 WARN exited: horizon (exit status 1; not expected)
+2024-07-10 14:12:43,340 INFO spawned: 'horizon' with pid 22
+2024-07-10 14:12:44,354 INFO success: horizon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-10 14:12:44,785 WARN exited: horizon (exit status 1; not expected)
+2024-07-10 14:12:45,800 INFO spawned: 'horizon' with pid 25
+2024-07-10 14:12:46,807 INFO success: horizon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-10 14:12:47,286 WARN exited: horizon (exit status 1; not expected)
+2024-07-10 14:12:48,299 INFO spawned: 'horizon' with pid 28
+2024-07-10 14:12:49,328 INFO success: horizon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-10 14:12:49,850 WARN exited: horizon (exit status 1; not expected)
+2024-07-10 14:12:50,862 INFO spawned: 'horizon' with pid 31
+2024-07-10 14:12:51,867 INFO success: horizon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-10 14:12:53,564 WARN exited: horizon (exit status 1; not expected)
+2024-07-10 14:12:54,577 INFO spawned: 'horizon' with pid 34
+2024-07-10 14:12:55,581 INFO success: horizon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-10 14:12:56,355 WARN exited: horizon (exit status 1; not expected)
+2024-07-10 14:12:57,368 INFO spawned: 'horizon' with pid 37
+2024-07-10 14:12:58,373 INFO success: horizon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-10 14:12:59,309 WARN exited: horizon (exit status 1; not expected)
+2024-07-10 14:13:00,320 INFO spawned: 'horizon' with pid 40
+2024-07-10 14:13:01,326 INFO success: horizon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-10 14:13:02,226 WARN exited: horizon (exit status 1; not expected)
+2024-07-10 14:13:03,236 INFO spawned: 'horizon' with pid 43
+2024-07-10 14:13:04,241 INFO success: horizon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-10 14:13:05,021 WARN exited: horizon (exit status 1; not expected)
+2024-07-10 14:13:06,037 INFO spawned: 'horizon' with pid 46
+2024-07-10 14:13:07,045 INFO success: horizon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-10 14:13:07,627 WARN exited: horizon (exit status 1; not expected)
+2024-07-10 14:13:08,638 INFO spawned: 'horizon' with pid 49
+2024-07-10 14:13:09,642 INFO success: horizon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-10 14:13:10,029 WARN exited: horizon (exit status 1; not expected)
+2024-07-10 14:13:11,038 INFO spawned: 'horizon' with pid 52
+2024-07-10 14:13:12,042 INFO success: horizon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-10 14:13:12,507 WARN exited: horizon (exit status 1; not expected)
+2024-07-10 14:13:13,514 INFO spawned: 'horizon' with pid 55
+2024-07-10 14:13:14,518 INFO success: horizon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-10 14:13:16,160 WARN exited: horizon (exit status 1; not expected)
+2024-07-10 14:13:17,174 INFO spawned: 'horizon' with pid 58
+2024-07-10 14:13:18,177 INFO success: horizon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-10 14:13:18,756 WARN exited: horizon (exit status 1; not expected)
+2024-07-10 14:13:18,781 INFO spawned: 'horizon' with pid 61
+2024-07-10 14:13:19,806 INFO success: horizon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-10 14:13:21,646 WARN exited: horizon (exit status 1; not expected)
+2024-07-10 14:13:22,658 INFO spawned: 'horizon' with pid 64
+2024-07-10 14:13:24,098 INFO success: horizon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-10 14:13:24,127 WARN exited: horizon (exit status 1; not expected)
+2024-07-10 14:13:25,139 INFO spawned: 'horizon' with pid 67
+2024-07-10 14:13:26,143 INFO success: horizon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-10 14:13:26,872 WARN exited: horizon (exit status 1; not expected)
+2024-07-10 14:13:27,885 INFO spawned: 'horizon' with pid 70
+2024-07-10 14:13:28,890 INFO success: horizon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-10 14:13:29,506 WARN exited: horizon (exit status 1; not expected)
+2024-07-10 14:13:30,522 INFO spawned: 'horizon' with pid 73
+2024-07-10 14:13:31,526 INFO success: horizon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-10 14:13:32,336 WARN exited: horizon (exit status 1; not expected)
+2024-07-10 14:13:32,345 INFO spawned: 'horizon' with pid 76
+2024-07-10 14:13:33,349 INFO success: horizon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-10 14:13:34,302 WARN exited: horizon (exit status 1; not expected)
+2024-07-10 14:13:35,312 INFO spawned: 'horizon' with pid 79
+2024-07-10 14:13:36,322 INFO success: horizon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-10 14:13:37,276 WARN exited: horizon (exit status 1; not expected)
+2024-07-10 14:13:38,289 INFO spawned: 'horizon' with pid 82
+2024-07-10 14:13:39,293 INFO success: horizon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-10 14:13:40,002 WARN exited: horizon (exit status 1; not expected)
+2024-07-10 14:13:41,012 INFO spawned: 'horizon' with pid 85
+2024-07-10 14:13:42,017 INFO success: horizon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-10 14:13:43,795 WARN exited: horizon (exit status 1; not expected)
+2024-07-10 14:13:44,807 INFO spawned: 'horizon' with pid 88
+2024-07-10 14:13:45,811 INFO success: horizon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-10 14:13:46,332 WARN exited: horizon (exit status 1; not expected)
+2024-07-10 14:13:47,341 INFO spawned: 'horizon' with pid 91
+2024-07-10 14:13:48,344 INFO success: horizon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-10 14:13:48,918 WARN exited: horizon (exit status 1; not expected)
+2024-07-10 14:13:49,931 INFO spawned: 'horizon' with pid 94
+2024-07-10 14:13:50,937 INFO success: horizon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-10 14:13:51,341 WARN exited: horizon (exit status 1; not expected)
+2024-07-10 14:13:52,351 INFO spawned: 'horizon' with pid 97
+2024-07-10 14:13:53,820 INFO success: horizon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-10 14:13:53,840 WARN exited: horizon (exit status 1; not expected)
+2024-07-10 14:13:54,852 INFO spawned: 'horizon' with pid 100
+2024-07-10 14:13:55,855 INFO success: horizon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-10 14:13:56,172 WARN exited: horizon (exit status 1; not expected)
+2024-07-10 14:13:57,178 INFO spawned: 'horizon' with pid 103
+2024-07-10 14:13:58,181 INFO success: horizon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-10 14:13:59,479 WARN exited: horizon (exit status 1; not expected)
+2024-07-10 14:14:00,490 INFO spawned: 'horizon' with pid 106
+2024-07-10 14:14:01,509 INFO success: horizon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-10 14:14:02,880 WARN exited: horizon (exit status 1; not expected)
+2024-07-10 14:14:03,889 INFO spawned: 'horizon' with pid 109
+2024-07-10 14:14:04,893 INFO success: horizon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-10 14:14:05,215 WARN exited: horizon (exit status 1; not expected)
+2024-07-10 14:14:06,223 INFO spawned: 'horizon' with pid 112
+2024-07-10 14:14:07,227 INFO success: horizon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-10 14:14:08,128 WARN exited: horizon (exit status 1; not expected)
+2024-07-10 14:14:09,147 INFO spawned: 'horizon' with pid 115
+2024-07-10 14:14:10,152 INFO success: horizon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-10 14:14:12,171 WARN exited: horizon (exit status 1; not expected)
+2024-07-10 14:14:13,236 INFO spawned: 'horizon' with pid 118
+2024-07-10 14:14:14,239 INFO success: horizon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-10 14:14:15,055 WARN exited: horizon (exit status 1; not expected)
+2024-07-10 14:14:16,067 INFO spawned: 'horizon' with pid 121
+2024-07-10 14:14:17,071 INFO success: horizon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-10 14:14:18,948 WARN exited: horizon (exit status 1; not expected)
+2024-07-10 14:14:19,967 INFO spawned: 'horizon' with pid 124
+2024-07-10 14:14:20,973 INFO success: horizon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-10 14:14:22,845 WARN exited: horizon (exit status 1; not expected)
+2024-07-10 14:14:23,834 INFO spawned: 'horizon' with pid 133
+2024-07-10 14:14:24,841 INFO success: horizon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-10 14:14:26,479 WARN exited: horizon (exit status 1; not expected)
+2024-07-10 14:14:27,489 INFO spawned: 'horizon' with pid 136
+2024-07-10 14:14:28,495 INFO success: horizon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-10 14:14:29,466 WARN exited: horizon (exit status 1; not expected)
+2024-07-10 14:14:30,483 INFO spawned: 'horizon' with pid 139
+2024-07-10 14:14:31,489 INFO success: horizon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-10 14:14:32,439 WARN exited: horizon (exit status 1; not expected)
+2024-07-10 14:14:33,448 INFO spawned: 'horizon' with pid 145
+2024-07-10 14:14:34,452 INFO success: horizon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-10 14:14:35,157 WARN exited: horizon (exit status 1; not expected)
+2024-07-10 14:14:36,166 INFO spawned: 'horizon' with pid 148
+2024-07-10 14:14:37,170 INFO success: horizon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-10 14:14:38,667 WARN exited: horizon (exit status 1; not expected)
+2024-07-10 14:14:39,679 INFO spawned: 'horizon' with pid 151
+2024-07-10 14:14:40,682 INFO success: horizon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-10 14:14:41,169 WARN exited: horizon (exit status 1; not expected)
+2024-07-10 14:14:42,179 INFO spawned: 'horizon' with pid 154
+2024-07-10 14:14:43,182 INFO success: horizon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-10 14:14:43,647 WARN exited: horizon (exit status 1; not expected)
+2024-07-10 14:14:44,653 INFO spawned: 'horizon' with pid 157
+2024-07-10 14:14:45,657 INFO success: horizon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-10 14:14:47,112 WARN exited: horizon (exit status 1; not expected)
+2024-07-10 14:14:48,120 INFO spawned: 'horizon' with pid 160
+2024-07-10 14:14:49,122 INFO success: horizon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-10 14:14:50,406 WARN exited: horizon (exit status 1; not expected)
+2024-07-10 14:14:51,412 INFO spawned: 'horizon' with pid 163
+2024-07-10 14:14:52,414 INFO success: horizon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-10 14:14:53,637 WARN exited: horizon (exit status 1; not expected)
+2024-07-10 14:14:54,652 INFO spawned: 'horizon' with pid 166
+2024-07-10 14:14:55,656 INFO success: horizon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-10 14:14:55,860 WARN exited: horizon (exit status 1; not expected)
+2024-07-10 14:14:56,871 INFO spawned: 'horizon' with pid 169
+2024-07-10 14:14:57,875 INFO success: horizon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-10 14:14:58,134 WARN exited: horizon (exit status 1; not expected)
+2024-07-10 14:14:59,142 INFO spawned: 'horizon' with pid 172
+2024-07-10 14:15:00,145 INFO success: horizon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-10 14:15:00,458 WARN exited: horizon (exit status 1; not expected)
+2024-07-10 14:15:01,465 INFO spawned: 'horizon' with pid 175
+2024-07-10 14:15:02,470 INFO success: horizon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-10 14:15:02,848 WARN exited: horizon (exit status 1; not expected)
+2024-07-10 14:15:03,856 INFO spawned: 'horizon' with pid 178
+2024-07-10 14:15:04,860 INFO success: horizon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-10 14:15:06,462 WARN exited: horizon (exit status 1; not expected)
+2024-07-10 14:15:07,473 INFO spawned: 'horizon' with pid 181
+2024-07-10 14:15:08,478 INFO success: horizon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-10 14:15:08,912 WARN exited: horizon (exit status 1; not expected)
+2024-07-10 14:15:09,925 INFO spawned: 'horizon' with pid 184
+2024-07-10 14:15:10,928 INFO success: horizon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-10 14:15:11,426 WARN exited: horizon (exit status 1; not expected)
+2024-07-10 14:15:12,438 INFO spawned: 'horizon' with pid 187
+2024-07-10 14:15:13,443 INFO success: horizon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-07-10 14:15:15,262 WARN exited: horizon (exit status 1; not expected)
+2024-07-10 14:15:16,276 INFO spawned: 'horizon' with pid 190
+2024-07-10 14:15:16,280 WARN received SIGQUIT indicating exit request
+2024-07-10 14:15:16,282 INFO waiting for horizon to die
+2024-07-10 14:15:17,803 WARN stopped: horizon (exit status 1)
