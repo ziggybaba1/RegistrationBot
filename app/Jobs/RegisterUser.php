@@ -17,15 +17,15 @@ use Webklex\IMAP\Facades\Client as IMAPClient;
 class RegisterUser implements ShouldQueue
 {
     use Dispatchable, InteractsWithQueue, Queueable, SerializesModels;
-    private $client;
+
     private $webUrl;
     private $cookieJar;
     private $phpSessionId;
     private $cToken;
+
     public function __construct()
     {
-        $this->client = new Client();
-        $this->webUrl = env('WEB_URL', 'https://challenge.blackscale.media');
+        $this->webUrl = 'https://challenge.blackscale.media';
         $this->cookieJar = new CookieJar();
     }
 
@@ -33,34 +33,38 @@ class RegisterUser implements ShouldQueue
     {
         Log::info('Starting the registration process.');
 
+        // Initialize Guzzle client
+        $client = new Client();
+
         // Step 1: Start the registration process and extract cookies
-        $this->startRegistrationProcess();
+        $this->startRegistrationProcess($client);
 
         // Step 2: Extract stoken value
-        $stoken = $this->getStoken();
+        $stoken = $this->getStoken($client);
         Log::info('Extracted stoken value: ' . $stoken);
 
         // Step 3: Submit the registration form
-        $email = 'test@salemepartners.com';
-        $this->submitRegistrationForm($stoken, $email);
+        $randomName = 'user' . uniqid(); // Generate random name
+        $email = $randomName . '@gmail.com'; // Generate email from random name
+        $this->submitRegistrationForm($client, $stoken, $email, $randomName);
 
         // Step 4: Retrieve the verification code from email
         $verificationCode = $this->getVerificationCodeFromEmail();
         Log::info('Retrieved verification code: ' . $verificationCode);
 
         // Step 5: Verify OTP
-        $this->verifyOTP($verificationCode, $email);
+        $this->verifyOTP($client, $verificationCode, $email);
 
         // Step 6: Submit Captcha
-        $response = $this->submitCaptcha();
+        $response = $this->submitCaptcha($client);
 
         Log::info('Registration process completed successfully.');
         return response()->json(['message' => 'Registration completed successfully', 'response' => $response]);
     }
 
-    private function startRegistrationProcess()
+    private function startRegistrationProcess($client)
     {
-        $response = $this->client->request('GET', $this->webUrl, ['cookies' => $this->cookieJar]);
+        $response = $client->request('GET', $this->webUrl, ['cookies' => $this->cookieJar]);
         $this->extractCookies();
         Log::info('Started registration process and extracted cookies.');
     }
@@ -77,9 +81,9 @@ class RegisterUser implements ShouldQueue
         Log::info('Extracted cookies: PHPSESSID=' . $this->phpSessionId . ', ctoken=' . $this->cToken);
     }
 
-    private function getStoken()
+    private function getStoken($client)
     {
-        $response = $this->client->request('GET', $this->webUrl . '/register.php', ['cookies' => $this->cookieJar]);
+        $response = $client->request('GET', $this->webUrl . '/register.php', ['cookies' => $this->cookieJar]);
         $dom = new DOMDocument();
         @$dom->loadHTML($response->getBody()->getContents());
         $xpath = new DOMXPath($dom);
@@ -87,9 +91,8 @@ class RegisterUser implements ShouldQueue
         return $xpath->evaluate('string(//input[@name="stoken"]/@value)');
     }
 
-    private function submitRegistrationForm($stoken, $email)
+    private function submitRegistrationForm($client, $stoken, $email,$randomName)
     {
-        $randomName = 'user' . uniqid();
         $formParams = [
             'stoken' => $stoken,
             'email' => $email,
@@ -98,7 +101,7 @@ class RegisterUser implements ShouldQueue
             'email_signature' => base64_encode($email)
         ];
 
-        $this->client->request('POST', $this->webUrl . '/verify.php', [
+        $client->request('POST', $this->webUrl . '/verify.php', [
             'form_params' => $formParams,
             'cookies' => $this->cookieJar,
             'headers' => $this->getHeaders($this->webUrl . '/register.php')
@@ -130,14 +133,14 @@ class RegisterUser implements ShouldQueue
         throw new \Exception('Verification code not found in email');
     }
 
-    private function verifyOTP($verificationCode, $email)
+    private function verifyOTP($client, $verificationCode, $email)
     {
         $formParams = [
             'code' => $verificationCode,
             'email' => $email
         ];
 
-        $this->client->request('POST', $this->webUrl . '/captcha.php', [
+        $client->request('POST', $this->webUrl . '/captcha.php', [
             'form_params' => $formParams,
             'cookies' => $this->cookieJar,
             'headers' => $this->getHeaders($this->webUrl . '/verify.php')
@@ -146,13 +149,13 @@ class RegisterUser implements ShouldQueue
         Log::info('Verified OTP for email: ' . $email);
     }
 
-    private function submitCaptcha()
+    private function submitCaptcha($client)
     {
         $formParams = [
             'g-recaptcha-response' => ''
         ];
 
-        $response = $this->client->request('POST', $this->webUrl . '/complete.php', [
+        $response = $client->request('POST', $this->webUrl . '/complete.php', [
             'form_params' => $formParams,
             'cookies' => $this->cookieJar,
             'headers' => $this->getHeaders($this->webUrl . '/captcha.php')
